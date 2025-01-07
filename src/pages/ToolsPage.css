@@ -1,0 +1,104 @@
+.tools-container {
+	font-family: 'Poppins', sans-serif;
+	background-color: hsla(212, 59%, 11%, 0.9);
+	color: #f0f8ff;
+	padding: 40px 20px;
+	text-align: center;
+	animation: fadeIn 0.8s ease-in-out;
+ }
+ 
+ .page-title {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	animation: fadeInDown 0.7s ease-in-out;
+ }
+ 
+ .tools-list {
+	list-style: none;
+	padding: 0;
+	max-width: 700px;
+	margin: 0 auto;
+ }
+ 
+ .tool-item {
+	margin: 20px 0;
+	animation: slideUp 1s ease-in-out forwards;
+	opacity: 0;
+ }
+ 
+ .tool-item:nth-child(odd) {
+	animation-delay: 0.3s;
+ }
+ 
+ .tool-item:nth-child(even) {
+	animation-delay: 0.5s;
+ }
+ 
+ .tool-link {
+	display: block;
+	background-color: #1c2e4a;
+	color: #00aaff;
+	padding: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .tool-link:hover {
+	background-color: #00aaff;
+	color: white;
+	transform: translateY(-5px) scale(1.05);
+ }
+ 
+ .back-button {
+	background-color: #00aaff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+	margin-bottom: 20px;
+ }
+ 
+ .back-button:hover {
+	background-color: #0077cc;
+ }
+ 
+ /* Animations */
+ @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+	to {
+	  opacity: 1;
+	}
+ }
+ 
+ @keyframes fadeInDown {
+	from {
+	  opacity: 0;
+	  transform: translateY(-20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+ }
+ 
+ @keyframes slideUp {
+	from {
+	  opacity: 0;
+	  transform: translateY(30px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+ }
+ 

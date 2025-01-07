@@ -1,0 +1,137 @@
+.resources-container {
+  font-family: "Poppins", sans-serif;
+  color: #f0f8ff;
+  text-align: center;
+  padding: 30px 20px;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(5px);
+  background: url("/hero-bg.webp") no-repeat center center/cover;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.resources-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-in-out;
+  color: #ffffff;
+
+}
+
+.resources-intro {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  animation: fadeInUp 1s ease-in-out;
+  color: #ffffff;
+}
+
+.resources-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.resource-item {
+  margin: 10px;
+}
+
+.resource-link {
+  text-decoration: none;
+  background-color: rgba(28, 46, 74, 0.9);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  animation: slideUp 1s ease-in-out forwards;
+}
+
+.resource-link:nth-child(odd) {
+  animation-delay: 0.3s;
+}
+
+.resource-link:nth-child(even) {
+  animation-delay: 0.5s;
+}
+
+.resource-link:hover {
+  background-color: #00aaff;
+  transform: translateY(-5px) scale(1.1);
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.5);
+}
+
+.additional-section {
+  background-color: rgba(28, 46, 74, 0.8);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.additional-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  color: #00aaff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.additional-section p {
+  font-size: 1rem;
+  color: #e0f7ff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

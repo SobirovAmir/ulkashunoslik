@@ -1,0 +1,50 @@
+?Geografiya o’lkashunosligining asosiy obyekti bo’lib nimalar xizmat qiladi?
++ Tabiat, aholi, xo’jalik, tarix, san’at
+- Tabiat obyektlari, Yer, Quyosh
+- O’lka iqtisodiy sharoiti, qishloq xo’jalik, tibbiyot
+- O’lka xo’jaligi, tabiati, iqtisodiy sharoit
+?Geografik o’lkashunoslik asosan nechta yirik tarmoqdan iborat?
++ 2
+- 5
+- 3
+- 4
+?Eng yirik tabiiy hududiy kompleks bu?
++ Geografik qobiq
+- Landshaft
+- O’lka
+- Biosfera
+?Aniq tabiiy chegaraga, bir xil geologik, geomorfologik asosga, bir xil gidrotermik sharoitga, tuproq va o’simlik qoplamiga ega bo’lgan hudud ….?
++ Geografik landshaft
+- O’lka
+- Tabiat zona
+- Provintsiya
+?Iqtisodiy o’lkashunoslikning ob’ekti nima?
++ O’lka aholisi, xo’jaligi, shaharlari, qishloqlari
+- O’lka orografiyasi, o’lka landshaftlari, qishloqlar
+- Daryolar, shaharlar, ko’llar
+- O’lka qishloq xo’jaligi, o’lka landshaftlari, shaharlar
+?“Qadimgi xalqlardan qolgan yodgorliklar” asari kimga tegishli?
++ Abu Rayhon Al-Beruniy
+- Zaxriddin Muxammad Bobur
+- Al-Xorazmiy
+- Ibn Sino
+?O’lka aholisini, shahar va qishloqlarini, ishlab chiqarish korxonalarini, transport tizimini va tashqi iqtisodiy aloqalarini o’lkashunoslikni qaysi tarmog’i o’rganadi?
++ Iqtisodiy o’lkashunoslik
+- Tabiiy o’lkashunoslik
+- Tarixiy o’lkashunoslik
+- San’at o’lkashunoslik
+?San’atshunoslik o’lkashunosligining maqsadi nima?
++ O’lkaning xalq ijodini, san’at asarlarini o’rganish
+- O’lkani tarixiy joylarini, xo’jaligini o’rganish
+- O’lkani sanoat ishlab chiqarishini, san’at asarlarini o’rganish
+- O’lkani xalq ijodini, tabiatini o’rganish
+?Geografik landshaftning o’lkashunoslik maqsadlarida o’rganilish qanday tartibda amalga oshiriladi?
++ Topografik ishlar, o’lka geologik tuzilishini, relefi va foydali qazilmalarini, o’lka iqlimini, ichki suvlarini o’rganish
+- O’lkaning geografik joylashuvi, o’lka aholisi, o’lka iqlimini o’rganish
+- O’lka tabiiy boyliklari, o’lka iqlimi, o’lka transportini o’rganish
+- O’lka xo’jaligining rivojlanish tarixini, ichki suvlarini, o’lka qishloq xo’jaligini o’rganish
+?Geografik qobiq yana qanday kattalikdagi tabiiy hududiy komplekslarga bo’linib ketadi?
++ Materiklar va okeanlar, tabiiy geografik o’lkalar va provintsiyalar, zonalar
+- Qit’alar, tumanlar, viloyatlar, landshaft, zonalar
+- Materiklar va okeanlar, landshaftlar, mamlakatlar, oblastlar
+- Tabiiy geografik rayonlar, zonalar, mamlakatlar

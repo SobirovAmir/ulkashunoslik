@@ -1,0 +1,50 @@
+?O‘lkashunoslik necha turga bo‘linadi?
++3
+-2
+-4
+-5
+?Qishloq, ovul, qo‘rg‘on, tuman, shahar, viloyat hududidagi tarixiy obidalarni saqlash ishlari o‘lkashunoslikning qaysi turiga mansub?
++Jamoat
+-Maktab
+-Tarixiy
+-Ilmiy yoki davlat
+?Sfragistlar kimlar?
++Muhrlarni o‘rganuvchilar
+-Gerblarni o‘rganuvchilar
+-Tangalarni o‘rganuvchilar
+-Sopol buyumlarini o‘rganuvchilar
+?Geraldistlar kimlar?
++Tamg‘a (gerb) larni o‘rganuvchilar
+-Muhrlarni o‘rganuvchilar
+-Tangalarni o‘rganuvchilar
+-Sopol buyumlarini o‘rganuvchilar
+?Epigrafistlar kimlar?
++Tosh, metall, sopol va yog‘och buyumlarni o‘rganuvchilar
+-Tamg‘a (gerb) larni o‘rganuvchilar
+-Muhrlarni o‘rganuvchilar
+-Tangalarni o‘rganuvchilar
+?Tanga pullarini o‘rganuvchilar kimlar deb ataladi?
++Numizmatlar
+-Geraldistlar
+-Epigrafistlar
+-Sfragistlar
+?Numizmatlar, sfragistlar, geraldistlar, epigrafistlar o‘lkashunoslikning qaysi turiga mansub?
++Jamoat o‘lkashunosligi
+-Ilmiy o‘lkashunoslik
+-Maktab o‘lkashunosligi
+-Davlat o‘lkashunosligi
+?Maktab geografiya o‘lkashunosligi mazmuniga ko‘ra necha qismga bo‘linadi?
++2
+-3
+-4
+-5
+?O‘lkashunoslik mazmuniga ko‘ra necha guruhga ajratiladi?
++2 guruhga
+-3 guruhga
+-4 guruhga
+-5 guruhga
+?O‘quv o‘lkashunosligi oldida nechta muhim vazifa turadi?
++2 ta
+-4 ta
+-6 ta
+-8 ta

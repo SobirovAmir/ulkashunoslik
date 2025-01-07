@@ -1,0 +1,64 @@
+/* Footer.css */
+.bottom-footer {
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  background: linear-gradient(
+    90deg,
+    #000428,
+    #004e92
+  ); /* Космический градиент */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-top: 1px solid #00aaff;
+  position: relative;
+  position: static;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+
+.bottom-footer strong {
+  font-weight: bold;
+  color: #00aaff; /* Цвет для выделения текста */
+}
+
+.bottom-footer a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.bottom-footer a:hover {
+  color: #00aaff; /* При наведении на ссылку — цвет изменяется */
+}
+
+.bottom-footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.bottom-footer .social-icons a {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.bottom-footer .social-icons a:hover {
+  transform: scale(1.2);
+  color: #00aaff;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+  .bottom-footer {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .bottom-footer .social-icons {
+    gap: 0.8rem;
+  }
+}
