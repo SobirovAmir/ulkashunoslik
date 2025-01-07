@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       {/* Hero Section */}
       <section className="hero">
-        <h1 className="hero-title">O&apos;lkashunoslik va Mintaqaviy Tadqiqotlar</h1>
+        <h1 className="hero-title">O&apos;lkashunoslik</h1>
         <p className="hero-subtitle">
           Hududlarning tabiati, ijtimoiy-iqtisodiy rivojlanishi va madaniy boyliklarini kashf eting!
         </p>
