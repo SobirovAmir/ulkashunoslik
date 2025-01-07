@@ -83,15 +83,6 @@
   animation: fadeInUp 1s ease-in-out;
 }
 
-/* Keyframe Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 @keyframes fadeInDown {
   from {

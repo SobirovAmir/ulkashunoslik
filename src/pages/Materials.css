@@ -119,13 +119,3 @@
   justify-content: center;
   animation: fadeIn .5s ease-out forwards;
 }
-
-/* Эффект для плавного фона */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
