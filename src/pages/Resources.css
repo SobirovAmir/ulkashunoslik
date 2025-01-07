@@ -9,6 +9,7 @@
   justify-content: space-between;
   backdrop-filter: blur(5px);
   background: url("/hero-bg.webp") no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
 .resources-title {
@@ -16,7 +17,8 @@
   font-weight: bold;
   margin-bottom: 20px;
   animation: fadeInDown 1s ease-in-out;
-  color: #ffffff;
+  color: #f39c12;
+
 
 }
 

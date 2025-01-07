@@ -1,26 +1,50 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./VideoPage.css";
 
 const VideoPage = () => {
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
 
+  // Видеоматериалы по теме "O'lkashunoslik"
   const videos = [
-    { title: "Understanding Solar Activity", embedId: "h6D1hG0hY-A" },
-    { title: "Space Weather Explained", embedId: "bJSnNRIlGfM" },
-    { title: "Solar Flares and Coronal Mass Ejections", embedId: "q3HJLWA1oDg" },
-    { title: "The Solar Wind", embedId: "2HoTK_Gqi2Q" },
-    { title: "The Sun's Magnetic Field", embedId: "libKVRa01L8" },
-    { title: "Sunspots and Solar Cycles", embedId: "xYhB6CJwXEw" },
+    {
+      title: "Samarqand viloyat O'lkashunoslik muzeyi",
+      embedId: "L9LbbGkyZWk",
+    },
+    { title: "O'lkashunoslik muzeyi 3", embedId: "6QuKBUxVjuk" },
+    { title: "O'lkashunoslik muzeyi", embedId: "Ge4Rajvw8jY" },
+    {
+      title: "Buxoro viloyat O'lkashunoslik muzeyi",
+      embedId: "449412100509353",
+    },
+    {
+      title: "Tarixiy o'lkashunoslik va turizmning turlari",
+      embedId: "f6f1d2c79c2c5a92ce8448e51eee1244",
+    },
+    { title: "O'lkashunoslik burchagi", embedId: "Vp5i-Tdy3rM" },
+    {
+      title: "Ismatulla Akaboyev O'lkashunoslik muzeylari",
+      embedId: "UCYUT8yDjdmCO0kHE8S18JiA",
+    },
+    {
+      title: "Tarixiy o'lkashunoslik fanining predmeti",
+      embedId: "xkFiGXFRInkrhz6f83BZ7AHaKe",
+    },
   ];
 
   return (
     <div className="videos-container">
-      <button className="back-button" onClick={() => navigate(-1)}>  {/* Back button */}
-        &larr; Back
+      <button className="back-button" onClick={() => navigate(-1)}>
+        {" "}
+        {/* Back button */}
+        &larr; Orqaga
       </button>
-      <h1 className="page-title">Solar Physics and Space Weather Videos</h1>
-      <p>Explore a curated collection of videos covering solar phenomena, space weather, and their impact on Earth.</p>
+      <h1 className="page-title">
+        O&apos;lkashunoslik va Geografiya Video Materiallari
+      </h1>
+      <p>
+        O&apos;lkashunoslik, geografiya, tabiiy resurslar va iqlim haqida
+        o&lsquo;quv materiallarini tomosha qiling.
+      </p>
       <div className="video-list">
         {videos.map((video, index) => (
           <div className="video-item" key={index}>

@@ -1,27 +1,31 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./ToolsPage.css";
 
 const tools = [
   {
-    title: "Space Weather Prediction Center",
-    description: "Provides real-time data and forecasts on solar storms and space weather.",
-    url: "https://www.swpc.noaa.gov"
+    title: "O'lkashunoslik va geografiya bo'yicha manbalar",
+    description: "Tashqi va ichki o'lkashunoslik va geografiya manbalari.",
+    url: "https://www.safarqand.uz"
   },
   {
-    title: "NASA Solar System Exploration Tools",
-    description: "A variety of resources to explore planets, moons, and solar physics.",
-    url: "https://solarsystem.nasa.gov/tools"
+    title: "Geografik koordinatalar tizimi",
+    description: "Geografik koordinatalar tizimi va uning qo'llanilishi.",
+    url: "https://www.youtube.com/watch?v=H3lNVYxkN-Q"
   },
   {
-    title: "Sunspot Activity Tracker",
-    description: "Track sunspot activity and solar cycles.",
-    url: "https://www.spaceweatherlive.com/en/solar-activity.html"
+    title: "Atlaslar va kartalar",
+    description: "O'lkashunoslik va geografiya bo'yicha atlaslar va kartalar resurslari.",
+    url: "https://www.su.uz/atlaslar"
   },
   {
-    title: "Space Weather Apps",
-    description: "Download mobile apps to monitor space weather and solar events.",
-    url: "https://www.spaceweatherlive.com"
+    title: "Tarixiy manbalar",
+    description: "O'lkashunoslik va tarixiy manbalar bo'yicha arxiv va onlayn resurslar.",
+    url: "https://www.history.uz"
+  },
+  {
+    title: "Geografik ma'lumotlar bazasi",
+    description: "Geografik ma'lumotlarni o'rganish va saqlash uchun onlayn resurslar.",
+    url: "https://data.gov.uz"
   }
 ];
 
@@ -31,10 +35,10 @@ const ToolsPage = () => {
   return (
     <div className="tools-container">
       <button className="back-button" onClick={() => navigate(-1)}>
-        &larr; Back
+        &larr; Orqaga
       </button>
-      <h1 className="page-title">Tools and References for Students</h1>
-      <p>Here are some useful tools and resources to help you with solar physics and space weather studies:</p>
+      <h1 className="page-title">O&apos;lkashunoslik va Geografiya bo&apos;yicha foydali manbalar</h1>
+      <p>O&apos;lkashunoslik va geografiya bo&apos;yicha foydali manbalar va resurslar:</p>
       <ul className="tools-list">
         {tools.map((tool, index) => (
           <li key={index} className="tool-item">
