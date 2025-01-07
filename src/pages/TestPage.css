@@ -10,12 +10,19 @@ body {
 
 .testspage {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
   background: #ffffff;
-  min-height: 100vh;
+  overflow-y: auto;
+  height: calc(100vh - 90px);
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testspage::-webkit-scrollbar {
+  display: none; 
 }
 
 h1 {
@@ -97,4 +104,62 @@ h1 {
   font-size: 1.5em;
   color: #00796b;
   margin-top: 50px;
+}
+
+/* Aдаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+  .testspage {
+    width: 90%; /* Уменьшаем ширину на мобильных устройствах */
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em; /* Уменьшаем размер заголовка */
+  }
+
+  .testspage-back-button,
+  .testspage-finish-button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+
+  .testspage-question h3 {
+    font-size: 1.1em; /* Уменьшаем размер заголовка вопроса */
+  }
+
+  .testspage-results h2 {
+    font-size: 1.8em; /* Уменьшаем размер заголовка результата */
+  }
+
+  .testspage-results p {
+    font-size: 1.1em; /* Уменьшаем размер текста в результате */
+  }
+}
+
+@media (max-width: 480px) {
+  .testspage {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .testspage-back-button,
+  .testspage-finish-button {
+    font-size: 0.9em;
+    padding: 6px 12px;
+  }
+
+  .testspage-question h3 {
+    font-size: 1em;
+  }
+
+  .testspage-results h2 {
+    font-size: 1.5em;
+  }
+
+  .testspage-results p {
+    font-size: 1em;
+  }
 }
