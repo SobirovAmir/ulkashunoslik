@@ -7,14 +7,14 @@
   align-items: center;
   justify-content: center;
   background: url("/hero-bg.webp") no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
 .title {
   font-size: 3rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   color: #f39c12;
   text-transform: uppercase;
-  letter-spacing: 5px;
   margin-bottom: 40px;
   animation: slideIn 0.5s ease-out;
 }
@@ -45,7 +45,6 @@
 .lesson-card {
   background: linear-gradient(45deg, #2e3b4e, #1a2a3c);
   border-radius: 15px;
-
   padding: 10px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
@@ -108,11 +107,78 @@
   color: #f1c40f;
 }
 
-/* Добавим плавный фон для страницы */
-.materials-container {
-  background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* Адаптивность для разных экранов */
+
+/* Для планшетов и меньше */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+
+  .lessons-grid {
+    padding: 0 15px;
+  }
+
+  .lesson-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .lesson-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .lesson-content p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Для мобильных устройств */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .lessons-grid {
+    padding: 0 10px;
+  }
+
+  .lesson-card {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .lesson-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .lesson-content p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .lessons-grid {
+    padding: 0 5px;
+  }
+
+  .lesson-card {
+    padding: 10px;
+  }
+
+  .lesson-content h2 {
+    font-size: 1rem;
+  }
+
+  .lesson-content p {
+    font-size: 0.8rem;
+  }
 }

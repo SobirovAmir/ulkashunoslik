@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -16,7 +15,7 @@ const Home = () => {
       {/* Navigation Section */}
       <nav className="nav-section">
         <Link to="/materials" className="nav-card">
-          <h2>Leksiya</h2>
+          <h2>Ma&apos;ruza</h2>
           <p>Geografik materiallar va hududlarni o&apos;rganish bo&apos;yicha batafsil ma&apos;lumotlar.</p>
         </Link>
         <Link to="/tests" className="nav-card">
