@@ -1,251 +1,251 @@
-/* General Container */
-.home-container {
-  font-family: "Poppins", sans-serif !important;
-  background-color: #f0f4f7; /* Светлый фон */
-  color: #333333;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  overflow-y: auto;
-}
-
-/* Hero Section */
-.hero {
-  background: url("/hero-bg.webp") no-repeat center center/cover;
-  height: 60vh;
-  display: flex;
-  font-weight: bold;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: relative;
-  z-index: 1;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный темный слой */
-}
-
-.hero-title {
-  font-size: 3rem;
-  font-family: "Cinzel", serif; /* Стильный шрифт для исторических тем */
-  z-index: 1;
-  animation: fadeInDown 1.5s;
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
-  z-index: 1;
-  animation: fadeInUp 1.5s;
-}
-
-/* Navigation Section */
-.nav-section {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: -50px;
-  padding: 20px;
-}
-
-.nav-card {
-  background: #7a8d84; /* Цвет, ассоциирующийся с природой */
-  color: #fff;
-  border-radius: 12px;
-  padding: 40px 20px;
-  width: 280px;
-  text-decoration: none;
-  transition: transform 0.3s, background-color 0.3s;
-  animation: fadeInDown 1.5s;
-}
-
-.nav-card:hover {
-  transform: translateY(-10px);
-  transition: 0.5s;
-  background-color: #80c99e; /* Зеленоватый оттенок */
-}
-
-/* Info Section */
-.info-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 10%;
-}
-
-.info-content {
-  max-width: 500px;
-  text-align: left;
-}
-
-.info-image {
-  width: 300px;
-  border-radius: 12px;
-  margin-left: 30px;
-  animation: zoomIn 2s;
-}
-
-/* Keyframe Animations */
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-/* Media Queries for responsiveness */
-
-/* Tablet and below (max-width: 1024px) */
-@media (max-width: 1024px) {
-  .hero {
-    height: 50vh;
-  }
-  .logo-text {
-    font-size: 1.2rem !important;
-  }
-  .hero-title {
-    font-size: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1.3rem !important;
-  }
-
-  .nav-section {
-    gap: 15px;
-    margin-top: 20px;
-  }
-
-  .nav-card {
-    width: 250px; /* Slightly reduce card size on medium screens */
-    padding: 30px 15px;
-  }
-
-  .info-section {
-    padding: 40px 5%;
-    flex-direction: column;
-  }
-
-  .info-content {
+  /* General Container */
+  .home-container {
+    font-family: "Poppins", sans-serif !important;
+    background-color: #f0f4f7; /* Светлый фон */
+    color: #333333;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
   }
 
-  .info-image {
-    width: 250px;
-    margin: 20px auto;
-  }
-}
-
-/* Small tablet and mobile (max-width: 768px) */
-@media (max-width: 800px) {
+  /* Hero Section */
   .hero {
-    height: 45vh;
-  }
-  header .nav {
-    gap: 10px;
-  }
-  .hero-title {
-    font-size: 2rem !important;
-  }
-
-  .hero-subtitle {
-    font-size: 1.2rem;
-  }
-
-  .nav-section {
-    gap: 12px;
+    background: url("/hero-bg.webp") no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    font-weight: bold;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    margin-top: 10px;
+    color: white;
+    position: relative;
+    z-index: 1;
   }
 
-  .nav-card {
-    max-width: 500px;
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    /* width: 350px; Decrease card size on smaller screens */
-    padding: 25px 12px;
-  }
-
-  .info-section {
-    padding: 30px 5%;
-    flex-direction: column;
-  }
-
-  .info-image {
-    width: 220px;
-    margin: 20px auto;
-  }
-}
-
-/* For mobile screens (max-width: 480px) */
-@media (max-width: 480px) {
-  .hero {
-    height: 40vh;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный темный слой */
   }
 
   .hero-title {
-    font-size: 1.6rem !important;
+    font-size: 3rem;
+    font-family: "Cinzel", serif; /* Стильный шрифт для исторических тем */
+    z-index: 1;
+    animation: fadeInDown 1.5s;
   }
 
   .hero-subtitle {
-    font-size: 1rem !important;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+    animation: fadeInUp 1.5s;
   }
 
+  /* Navigation Section */
   .nav-section {
-    margin: 0 auto !important;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .nav-card {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -50px;
     padding: 20px;
   }
 
+  .nav-card {
+    background: #7a8d84; /* Цвет, ассоциирующийся с природой */
+    color: #fff;
+    border-radius: 12px;
+    padding: 40px 20px;
+    width: 280px;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+    animation: fadeInDown 1.5s;
+  }
+
+  .nav-card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    background-color: #80c99e; /* Зеленоватый оттенок */
+  }
+
+  /* Info Section */
   .info-section {
-    padding: 20px 5%;
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+  }
+
+  .info-content {
+    max-width: 500px;
+    text-align: left;
   }
 
   .info-image {
-    width: 200px;
-    margin: 20px auto;
+    width: 300px;
+    border-radius: 12px;
+    margin-left: 30px;
+    animation: zoomIn 2s;
   }
-}
+
+  /* Keyframe Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Media Queries for responsiveness */
+
+  /* Tablet and below (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .hero {
+      height: 50vh;
+    }
+    .logo-text {
+      font-size: 1.2rem !important;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.3rem !important;
+    }
+
+    .nav-section {
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .nav-card {
+      width: 250px; /* Slightly reduce card size on medium screens */
+      padding: 30px 15px;
+    }
+
+    .info-section {
+      padding: 40px 5%;
+      flex-direction: column;
+    }
+
+    .info-content {
+      text-align: center;
+    }
+
+    .info-image {
+      width: 250px;
+      margin: 20px auto;
+    }
+  }
+
+  /* Small tablet and mobile (max-width: 768px) */
+  @media (max-width: 800px) {
+    .hero {
+      height: 45vh;
+    }
+    header .nav {
+      gap: 10px;
+    }
+    .hero-title {
+      font-size: 2rem !important;
+    }
+
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+
+    .nav-section {
+      gap: 12px;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+
+    .nav-card {
+      max-width: 500px;
+      width: 100%;
+      /* width: 350px; Decrease card size on smaller screens */
+      padding: 25px 12px;
+    }
+
+    .info-section {
+      padding: 30px 5%;
+      flex-direction: column;
+    }
+
+    .info-image {
+      width: 220px;
+      margin: 20px auto;
+    }
+  }
+
+  /* For mobile screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    .hero {
+      height: 40vh;
+    }
+
+    .hero-title {
+      font-size: 1.6rem !important;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem !important;
+    }
+
+    .nav-section {
+      margin: 0 auto !important;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-card {
+      width: 100%;
+      padding: 20px;
+    }
+
+    .info-section {
+      padding: 20px 5%;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .info-image {
+      width: 200px;
+      margin: 20px auto;
+    }
+  }

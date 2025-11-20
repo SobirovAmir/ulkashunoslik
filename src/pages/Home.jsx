@@ -4,6 +4,7 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
+
       {/* Hero Section */}
       <section className="hero">
         <h1 className="hero-title">O&apos;lkashunoslik</h1>
@@ -16,12 +17,16 @@ const Home = () => {
       <nav className="nav-section">
         <Link to="/materials" className="nav-card">
           <h2>Ma&apos;ruza</h2>
-          <p>Geografik materiallar va hududlarni o&apos;rganish bo&apos;yicha batafsil ma&apos;lumotlar.</p>
+          <p>
+            Geografik materiallar va hududlarni o&apos;rganish bo&apos;yicha batafsil ma&apos;lumotlar.
+          </p>
         </Link>
+
         <Link to="/tests" className="nav-card">
           <h2>Testlar</h2>
           <p>Bilimingizni tekshirish uchun qiziqarli testlar.</p>
         </Link>
+
         <Link to="/resources" className="nav-card">
           <h2>Manbalar</h2>
           <p>Qo&apos;shimcha materiallar va manbalar bilan tanishing.</p>
@@ -37,12 +42,14 @@ const Home = () => {
             boyliklari haqida kengroq ma&apos;lumot olish imkoniyatiga ega bo&apos;lasiz.
           </p>
         </div>
+
         <img
           src="/uzbekistan-landscape.webp"
           alt="Uzbekistan Landscape"
           className="info-image"
         />
       </section>
+
     </div>
   );
 };

@@ -2,10 +2,12 @@
 import './Footer.css';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bottom-footer">
       <p>Muallif: <strong>Sabirova Nilufar Tairovna</strong></p>
-      <p>© 2024. Barcha huquqlar himoyalangan.</p>
+      <p>© {currentYear}. Barcha huquqlar himoyalangan.</p>
     </footer>
   );
 };
